@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="vertical"
+   	    android:id="@+id/symptomViewGroup" >
+   	    
+	<TextView
+        android:id="@+id/sobTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sobText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+	<SeekBar
+	    android:id="@+id/sobBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+   	    
+    <TextView
+        android:id="@+id/edemaTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edemaText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/edemaBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/coughTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coughText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/coughBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/speedTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speedText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/speedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/painTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/painText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/painBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/inhalerTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inhalerText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/inhalerEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    
+     <TextView
+        android:id="@+id/fatigueTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fatigueText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+     <SeekBar
+         android:id="@+id/fatigueBar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/eventButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/event_button_text" />
+        
+        <Button 
+            android:id="@+id/dateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/dateButtonText" />
+  	
+        </LinearLayout>
+   
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="bottom|center_horizontal"
+        	android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/deleteButtonText" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/saveButtonText" 
+            style="@style/saveButton"
+             />
+
+    </LinearLayout>
+
+    
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">metasome</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hrText">Heart rate (per minute)</string>
+    <string name="systolicText">Systolic blood pressure</string>
+    <string name="diastolicText">Diastolic blood pressure</string>
+    <string name="weightText">Weight (lbs)</string>
+    <string name="glucoseText">Blood glucose</string>
+    <string name="graphButtonText">Visualize</string>
+    <string name="saveButtonText">Save</string>
+    <string name="dateButtonText">Change Date</string>
+    <string name="metabolic_choice_text">Body</string>
+    <string name="mood_choice_text">Mind</string>
+    <string name="symptom_choice_text">Symptoms</string>
+    <string name="event_choice_text">Event</string>
+    <string name="sleepText">Total sleep hours</string>
+    <string name="moodText">Mood</string>
+    <string name="anxietyText">Anxiety level</string>
+    <string name="energyText">Energy level</string>
+    <string name="concentrationText">Concentration</string>
+    <string name="appetiteText">Appetite</string>
+    <string name="libidoText">Libido</string>
+    <string name="sobText">Shortness of breath severity</string>
+    <string name="edemaText">Leg swelling</string>
+    <string name="coughText">Cough severity</string>
+    <string name="speedText">Speed</string>
+    <string name="painText">Pain severity</string>
+    <string name="inhalerText">Number of rescue inhaler uses today</string>
+    <string name="fatigueText">Fatigue</string>
+    <string name="date_picker_title">Select Date</string>
+    
+    <string name="past_week">Show last week</string>
+    <string name="past_month">Show last month</string>
+    <string name="past_3months">Show last 3 months</string>
+    <string name="past_year">Show last year</string>
+    <string name="events_title">Health Events</string>
+    <string name="event_button_text">Events</string>
+    <string name="newEventHint">Enter new event</string>
+    <string name="add_event_choice_text">Add event</string>
+    <string name="back_choice_text">Back</string>
+	<string name="eventTitleText">Event Description</string>
+    <string name="eventDateText">Event Date</string>
+	<string name="eventDateButtonText">Date</string>
+	<string name="eventSaveButtonText">Save</string>
+    <string name="eventCancelButtonText">Cancel</string>
+    <string name="deleteButtonText">Delete</string>
+    <string name="deleteEventButtonText">Delete Event</string>
+    
+    <string name="saved_toast">Saved!</string>
+    <string name="delete_toast">Deleted records</string>
+	
+</resources>

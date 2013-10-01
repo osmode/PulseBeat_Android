@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mindViewGroup" >
+    
+    <TextView
+        android:id="@+id/sleepTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sleepText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/sleepEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned" />   
+        
+   <TextView
+        android:id="@+id/moodTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moodText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/moodBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/anxietyTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anxietyText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/anxietyBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/energyTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/energyText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/energyBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/concentrationTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/concentrationText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/concentrationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/appetiteTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appetiteText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/appetiteBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/libidoTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/libidoText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/libidoBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+         
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/eventButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/event_button_text" />
+        
+        <Button 
+            android:id="@+id/dateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/dateButtonText" />
+  	
+        </LinearLayout>
+   
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="bottom|center_horizontal"
+        	android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/deleteButtonText" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/saveButtonText" 
+            style="@style/saveButton"
+             />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="vertical" 
+   	    android:id="@+id/bodyViewGroup">
+   	    
+	<TextView
+        android:id="@+id/hrTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hrText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/hrEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+   	    
+    <TextView
+        android:id="@+id/systolicTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/systolicText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/systolicEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/diastolicTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diastolicText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/diastolicEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+         />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weightText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <TextView
+        android:id="@+id/glucoseTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/glucoseText" 
+        android:background="#40a296e4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/glucoseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/eventButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/event_button_text" />
+        
+        <Button 
+            android:id="@+id/dateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/dateButtonText" />
+  	
+        </LinearLayout>
+   
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="bottom|center_horizontal"
+        	android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/deleteButtonText" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/saveButtonText"
+            style="@style/saveButton"
+             />
+
+    </LinearLayout>
+    
+    </LinearLayout>
+
+</ScrollView>
